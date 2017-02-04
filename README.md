@@ -11,7 +11,7 @@ The input file should contain a list of words on one single line like this:
 ```
 the quick red fox jumps over the lazy brown dog
 ```
-The program will load in the file, word by word, and create a binary tree out of the data. The tree is composed of nodes that contain a string of the word, a count of how many times that word appeared, and pointers to the left and right nodes of the tree. It will then iterate through the tree and print the words in alphabetical order as follows:
+The program will load in the file, word by word, and create a binary tree out of the data. The tree is composed of nodes that contain a string of the word, a count of how many times that word appeared in the file, and pointers to the left and right nodes of the tree. It will then iterate through the tree and print the words in alphabetical order as follows:
 ```
 brown: 1
 dog: 1
